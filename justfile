@@ -1,4 +1,4 @@
 set shell := ["cmd.exe", "/c"]
 
 dev:
-  npx tailwindcss -i ./src/input.css -o ./src/style.css --watch
+  npx tailwindcss -i ./input.css -o ./style.css --watch
