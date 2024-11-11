@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dimitri's portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js" defer></script>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+  <body class="antialiased">
+    <div
+      class="w-screen h-screen flex justify-center items-center overflow-hidden"
+    >
+      <div
+        id="greetingDiv"
+        class="w-full h-full bg-black text-white flex justify-center items-center shadow-lg"
+      >
+        <div class="flex flex-col gap-4">
+          <h1 class="font-heading text-5xl">
+            <span id="greeting">hi</span>, I'm Dimitri 👋
+          </h1>
+          <h2 class="font-bold text-2xl">
+            17-year-old software developer from Germany 🇩🇪
+          </h2>
+          <p class="font-medium text-2xl">
+            I like creating different kinds of projects, exploring<br />
+            new technologies, and listening to music.
+          </p>
+          <div class="flex gap-8 items-center">
+            <a
+              href="https://github.com/qizzle"
+              target="_blank"
+              class="transform hover:-rotate-12 hover:animate-pulse transition-transform"
+            >
+              <img src="./public/github.png" alt="GitHub" />
+            </a>
+            <button
+              id="discordButton"
+              class="transform hover:-rotate-12 hover:animate-pulse transition-transform"
+            >
+              <img src="./public/discord.png" alt="Discord" />
+            </button>
+            <a
+              href="mailto:qizzleschnitzel@gmail.com"
+              target="_blank"
+              class="transform hover:-rotate-12 hover:animate-pulse transition-transform"
+            >
+              <img src="./public/email.png" alt="E-Mail" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="w-screen mt-6 mb-12 bg-white text-black flex justify-center overflow-hidden"
+    >
+      <div class="flex w-1/2 flex-col gap-16">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="font-heading text-5xl">work</h1>
+            <div class="flex flex-col gap-4">
+              <div class="flex gap-4 mt-4 items-center">
+                <img src="./public/telekom.svg" alt="Telekom" />
+                <div class="flex flex-col text-xl font-semibold">
+                  <p>Jan. 2024 - Feb. 2024</p>
+                  <div class="flex items-start">
+                    <a
+                      href="https://en.wikipedia.org/wiki/Deutsche_Telekom"
+                      target="_blank"
+                      class="font-bold text-3xl hover:underline"
+                      >Deutsche Telekom</a
+                    >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      class="size-5"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <p>Software Developer (Intern)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h1 class="font-heading text-5xl">education</h1>
+            <div class="flex flex-col gap-4 mt-4">
+              <div class="flex flex-col text-xl font-semibold">
+                <p>Aug. 2018 - Present</p>
+                <h2 class="bold text-3xl">Gymnasium (High School)</h2>
+                <p>Visiting 11th grade</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1 class="font-heading text-5xl">tech</h1>
+          <div class="flex flex-col gap-6 mt-4 text-xl font-bold">
+            <div class="flex gap-8 justify-between">
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                target="_blank"
+                class="flex items-center gap-4"
+              >
+                <img src="./public/javascript.png" alt="javascript" />
+                <p>JavaScript</p>
+              </a>
+              <a
+                href="https://nodejs.org/en"
+                target="_blank"
+                class="flex items-center gap-4"
+              >
+                <img src="./public/nodejs.png" alt="nodejs" />
+                <p>Node.js</p>
+              </a>
+              <a
+                href="https://www.python.org/"
+                target="_blank"
+                class="flex items-center gap-4"
+              >
+                <img src="./public/python.png" alt="python" />
+                <p>Python</p>
+              </a>
+              <a
+                href="https://www.lua.org/"
+                target="_blank"
+                class="flex items-center gap-4"
+              >
+                <img src="./public/lua.png" alt="lua" />
+                <p>Lua</p>
+              </a>
+              <a
+                href="https://en.wikipedia.org/wiki/Java_(programming_language)"
+                target="_blank"
+                class="flex items-center gap-4"
+              >
+                <img src="./public/java.png" alt="java" />
+                <p>Java</p>
+              </a>
+              <a
+                href="https://nextjs.org/"
+                target="_blank"
+                class="flex items-center gap-4"
+              >
+                <img src="./public/nextjs.png" alt="nextjs" />
+                <p>Next.js</p>
+              </a>
+            </div>
+            <div class="w-full flex justify-center">
+              <h1 class="font-extrabold">and still learning more...</h1>
+            </div>
+          </div>
+        </div>
+        <div class="mb-16">
+          <h1 class="font-heading text-5xl">showcase</h1>
+          <div class="w-full flex flex-col gap-4 mt-8">
+            <a
+              id="bothostco"
+              target="_blank"
+              class="w-full h-[300px] bg-black cursor-pointer rounded-2xl flex items-end shadow relative hover:-rotate-1 hover:shadow-xl transition-all"
+            >
+              <img
+                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                src="./public/bothostco.png"
+                alt="bothost.co"
+              />
+              <p class="p-3 m-4 bg-white/10 text-white rounded-lg z-50">
+                <span class="font-bold mr-2">bothost.co</span>Making Discord bot
+                hosting easy<span
+                  class="px-2 rounded-full bg-orange-600 text-white font-bold ml-2 text-xs"
+                  >Work In Progress</span
+                >
+              </p>
+            </a>
+
+            <a
+              id="lumin"
+              target="_blank"
+              class="w-full h-[300px] bg-gradient-to-b cursor-pointer from-pink-300 to-pink-400 rounded-2xl flex items-end shadow relative hover:-rotate-1 hover:shadow-xl transition-all"
+            >
+              <img
+                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                src="./public/lumin.png"
+                alt="lumin"
+              />
+              <p class="p-3 m-4 bg-black/10 text-white rounded-lg z-50">
+                <span class="font-bold mr-2">lumin</span>A upcoming german
+                Garry's Mod StarWarsRP Server<span
+                  class="px-2 rounded-full bg-orange-600 text-white font-bold ml-2 text-xs"
+                  >Work In Progress</span
+                >
+              </p>
+            </a>
+
+            <a
+              href="https://github.com/RatWasHere/bmods"
+              target="_blank"
+              class="w-full h-[300px] bg-gradient-to-r from-green-600 to-black rounded-2xl flex items-end shadow relative hover:-rotate-1 hover:shadow-xl transition-all"
+            >
+              <img
+                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-lg"
+                src="./public/botmakerfordiscord.png"
+                alt="Bot Maker for Discord"
+              />
+              <p class="p-3 m-4 bg-black/10 text-white rounded-lg z-50">
+                <span class="font-bold mr-2">Bot Maker for Discord</span>Most
+                additions as a mod contributor
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="w-screen bg-black text-white font-mono flex p-8 justify-between rounded-t-lg"
+    >
+      <p class="">Made using HTML + TailwindCSS</p>
+      <a href="https://github.com/qizzle/portfolio" target="_blank"
+        >GitHub Repo</a
+      >
+    </footer>
+  </body>
+</html>
