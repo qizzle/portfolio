@@ -1,4 +1,4 @@
-const greetings = ["hi", "hey", "privet", "hallo", "salut"];
+const greetings = ["hi", "hey", "hallo"];
 
 const greeting = document.getElementById("greeting");
 greeting.innerHTML = greetings[Math.floor(Math.random() * greetings.length)];
@@ -44,9 +44,5 @@ document.getElementById("discordButton").addEventListener("click", (event) => {
 });
 
 document.getElementById("bothostco").addEventListener("click", (event) => {
-  createHoverText(event, "nothing here yet. check back later", "#ff0000");
-});
-
-document.getElementById("lumin").addEventListener("click", (event) => {
   createHoverText(event, "nothing here yet. check back later", "#ff0000");
 });
