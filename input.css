@@ -7,6 +7,22 @@
   src: url("./public/HankenGrotesk-VariableFont_wght.ttf");
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@theme {
+  --font-heading: "Calistoga", sans-serif;
+  --font-sans: "Hanken Grotesk", sans-serif;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
+
+.scrollbar-thumb-gray-500::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scrollbar-thumb-gray-500::-webkit-scrollbar-thumb {
+  background-color: #6b7280;
+  border-radius: 10px;
+}
+
+@import "tailwindcss";

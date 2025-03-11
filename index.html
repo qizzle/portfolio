@@ -8,7 +8,7 @@
     <script src="./index.js" defer></script>
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
   </head>
-  <body class="antialiased">
+  <body class="antialiased overflow-x-hidden scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-300">
     <div
       class="w-screen h-screen flex justify-center items-center overflow-hidden"
     >
@@ -20,8 +20,8 @@
           <h1 class="font-heading text-5xl">
             <span id="greeting">hi</span>, I'm Dimitri 👋
           </h1>
-          <h2 class="font-bold text-2xl">
-            17-year-old software developer from Germany 🇩🇪
+          <h2 class="font-bold text-2xl flex gap-3">
+            17-year-old software developer from Germany<span><svg width="32px" height="32px" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet"><path fill="#FFCD05" d="M0 27a4 4 0 0 0 4 4h28a4 4 0 0 0 4-4v-4H0v4z"></path><path fill="#ED1F24" d="M0 14h36v9H0z"></path><path fill="#141414" d="M32 5H4a4 4 0 0 0-4 4v5h36V9a4 4 0 0 0-4-4z"></path></svg></span>
           </h2>
           <p class="font-medium text-2xl">
             I like creating different kinds of projects, exploring<br />
@@ -74,7 +74,7 @@
                   <p>Jan. 2024 - Feb. 2024</p>
                   <div class="flex items-start">
                     <a
-                      href="https://en.wikipedia.org/wiki/Deutsche_Telekom"
+                      href="https://en.m.wikipedia.org/wiki/Deutsche_Telekom"
                       target="_blank"
                       class="font-bold text-3xl hover:underline"
                       >Deutsche Telekom</a
@@ -176,11 +176,11 @@
             >
               <img
                 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
-                src="./public/bothostco.png"
-                alt="bothost.co"
+                src="./public/hostbitco.png"
+                alt="hostbit.co"
               />
               <p class="p-3 m-4 bg-white/10 text-white rounded-lg z-50">
-                <span class="font-bold mr-2">bothost.co</span>Making Discord bot
+                <span class="font-bold mr-2">hostbit.co</span>Making Discord bot
                 hosting easy<span
                   class="px-2 rounded-full bg-orange-600 text-white font-bold ml-2 text-xs"
                   >Work In Progress</span
@@ -189,8 +189,7 @@
             </a>
 
             <a
-              href="https://discord.gg/Y5gmhNRkys"
-              target="_blank"
+              id="lumin"
               class="w-full h-[300px] bg-gradient-to-b cursor-pointer from-pink-300 to-pink-400 rounded-2xl flex items-end shadow relative hover:-rotate-1 hover:shadow-xl transition-all"
             >
               <img
@@ -201,8 +200,8 @@
               <p class="p-3 m-4 bg-black/10 text-white rounded-lg z-50">
                 <span class="font-bold mr-2">lumin</span>An upcoming german
                 Garry's Mod StarWarsRP Server<span
-                  class="px-2 rounded-full bg-gradient-to-r from-blue-700 to-blue-800 text-white font-bold ml-2 text-xs"
-                  >Discord</span
+                class="px-2 rounded-full bg-orange-600 text-white font-bold ml-2 text-xs"
+                >Work In Progress</span
                 >
               </p>
             </a>
@@ -218,8 +217,7 @@
                 alt="Bot Maker for Discord"
               />
               <p class="p-3 m-4 bg-black/10 text-white rounded-lg z-50">
-                <span class="font-bold mr-2">Bot Maker for Discord</span>Most
-                additions as a mod contributor
+                <span class="font-bold mr-2">Bot Maker for Discord</span>Modding contributions
                 <span
                   class="px-2 rounded-full bg-gradient-to-r from-green-700 to-green-800 text-white font-bold ml-2 text-xs"
                   >Github</span
@@ -231,7 +229,7 @@
       </div>
     </div>
     <footer
-      class="w-screen bg-black text-white font-mono flex p-8 justify-between rounded-t-lg"
+      class="w-full bg-black text-white font-mono flex p-8 justify-between rounded-t-lg"
     >
       <p class="">Made using HTML + TailwindCSS</p>
       <a href="https://github.com/qizzle/portfolio" target="_blank"

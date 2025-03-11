@@ -1,4 +1,5 @@
 const greetings = ["hi", "hey", "hallo"];
+const tryAgain = ["nothing here yet", "not yet", "someday it'll be here", "check back later"];
 
 const greeting = document.getElementById("greeting");
 greeting.innerHTML = greetings[Math.floor(Math.random() * greetings.length)];
@@ -44,5 +45,9 @@ document.getElementById("discordButton").addEventListener("click", (event) => {
 });
 
 document.getElementById("bothostco").addEventListener("click", (event) => {
-  createHoverText(event, "nothing here yet. check back later", "#ff0000");
+  createHoverText(event, tryAgain[Math.floor(Math.random() * tryAgain.length)], "#ff0000");
+});
+
+document.getElementById("lumin").addEventListener("click", (event) => {
+  createHoverText(event, tryAgain[Math.floor(Math.random() * tryAgain.length)], "#ff0000");
 });
